@@ -4,10 +4,10 @@ inputs:
   milliseconds:  # id of input
     description: 'number of milliseconds to wait'
     required: true
-    default: '1000'
+    default: '2000'
 outputs:
   time: # output will be available to future steps 
-    description: 'The message to output'
+    description: 'Here we are waiting...'
 runs:
   using: 'node12'
   main: 'index.js'
